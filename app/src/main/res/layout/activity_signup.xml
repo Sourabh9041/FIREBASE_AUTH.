@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signin_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/signup_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/username_password_bg"
+        android:hint="Enter Your Username"
+        android:padding="15dp"></EditText>
+
+    <EditText
+        android:id="@+id/email_id"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/username_password_bg"
+        android:hint="Enter Your Email_id"
+        android:padding="15dp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/signup_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/username_password_bg"
+        android:hint="Enter Your Password"
+        android:padding="15dp"></EditText>
+
+    <Button
+        android:id="@+id/signup_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+
+        android:text="Signup">
+
+    </Button>
+
+    <Button
+        android:id="@+id/signup_Google"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/icons8_google"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:textColor="@color/black">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/Already_have_Account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have Account!Click here"
+        android:textColor="#E8FF00"
+        android:layout_marginTop="20dp"></TextView>
+
+</LinearLayout>
+

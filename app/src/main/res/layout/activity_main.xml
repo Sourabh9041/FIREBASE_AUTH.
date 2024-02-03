@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signin_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/signin_email"
+        android:minWidth="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:background="@drawable/username_password_bg"
+        android:hint="Enter Your Email"
+        android:padding="15dp"></EditText>
+
+    <EditText
+        android:id="@+id/signin_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/username_password_bg"
+        android:hint="Enter Your Password"
+        android:inputType="textPassword"
+        android:padding="15dp"></EditText>
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+
+        android:text="Signin">
+
+    </Button>
+
+    <Button
+        android:id="@+id/Google"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/icons8_google"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:textColor="@color/black">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/signin_clickhere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New To us !Click here"
+        android:textColor="#E8FF00"
+        android:layout_marginTop="20dp"></TextView>
+
+</LinearLayout>
+

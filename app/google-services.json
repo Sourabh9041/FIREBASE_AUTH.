@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "928005368220",
+    "project_id": "fir-authentication-pct",
+    "storage_bucket": "fir-authentication-pct.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928005368220:android:9030bdb32131ce14768059",
+        "android_client_info": {
+          "package_name": "com.example.firebase_authentication_practice"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA--Iy0hNQuhEIsXmZzuFaMSWRvrYOMH-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
